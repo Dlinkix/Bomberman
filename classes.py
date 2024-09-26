@@ -79,7 +79,7 @@ class Player(pygame.sprite.Sprite):
                   pygame.image.load('Images/p2back2shield.png'),
                   pygame.image.load('Images/p2back3shield.png'), pygame.image.load('Images/p2back2shield.png'),
                   pygame.image.load('Images/p2back1shield.png'), pygame.image.load('Images/p2backshield.png')]
-    # Constructor function
+   
     def __init__(self, x, y, number):
         super().__init__()
         self.image = pygame.Surface([24, 28])
